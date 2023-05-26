@@ -18,7 +18,7 @@ The purpose of this repository is simply to demonstrate the programming skills t
 
 "aimCameras" is a Python program designed to run on a Jetson Nano microcomputer, which independently manages the movements of six servomotors. Three cameras were mounted to two servos each, and were intelligently aimed by the servos based on accelerometer sensor data. 
 
-"tempToArduino" established Serial communication between the Jetson Nano and an Arduino Nano in order to send data from a temperature sensor attached to the Jetson Nano. 
+"tempToArduino" established UART communication between the Jetson Nano and an Arduino Nano in order to send data from a temperature sensor attached to the Jetson Nano. 
 
 "12V_Fan_Control" is a C program desgined to run on the Arduino that utilized the temperature data to determine the speed of a cooling fan connected to the Arduino. 
 
